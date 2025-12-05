@@ -1,10 +1,3 @@
-class Point
-{
-    public int X;
-    public int Y;
-}
-
-
 class EntryPoint
 {
     static void Main()
