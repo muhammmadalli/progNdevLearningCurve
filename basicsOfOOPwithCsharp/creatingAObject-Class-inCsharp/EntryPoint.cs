@@ -7,8 +7,9 @@ class EntryPoint
         Point point = new Point(5, 10);
 
         Point point2 = new Point();
+        point2.X= 69;
 
-        System.Console.WriteLine("Point1 coordinate: " + point.X);
-        System.Console.WriteLine("Point2 coordinates: X = " + point.X + ", Y = " + point.Y);
+        System.Console.WriteLine("Point2 coordinate: " + point2.X);
+        System.Console.WriteLine("Point1 coordinates: X = " + point.X + ", Y = " + point.Y);
     }
 }
